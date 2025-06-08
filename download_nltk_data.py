@@ -1,0 +1,6 @@
+import nltk
+
+# Download all required NLTK data into a local folder called 'nltk_data'
+nltk.download('punkt', download_dir='nltk_data')
+nltk.download('wordnet', download_dir='nltk_data')
+nltk.download('stopwords', download_dir='nltk_data')
