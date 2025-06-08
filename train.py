@@ -61,7 +61,7 @@ model = tf.keras.Sequential([
 ])
 
 model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-model.fit(X_train, y_train, epochs=3000, batch_size=20, verbose=1)
+model.fit(X_train, y_train, epochs=500, batch_size=10, verbose=1)
 
 # Save model
 model.save("chatbot_model_optimized.h5")
