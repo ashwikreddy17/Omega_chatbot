@@ -1,0 +1,4080 @@
+
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "weekend_plans",
+            "patterns": [
+                "Doing anything this weekend?",
+                "What are your weekend plans?",
+                "Doing anything this weekend?",
+                "Any plans for the weekend?",
+                "Doing anything this weekend?",
+                "What are your weekend plans?",
+                "Weekend vibes?",
+                "Weekend vibes?",
+                "Doing anything this weekend?",
+                "Doing anything this weekend?",
+                "Weekend vibes?",
+                "Any plans for the weekend?",
+                "Weekend vibes?",
+                "Any plans for the weekend?",
+                "Any plans for the weekend?",
+                "Weekend vibes?",
+                "Doing anything this weekend?",
+                "Any plans for the weekend?",
+                "What are your weekend plans?",
+                "What are your weekend plans?",
+                "Weekend vibes?",
+                "Doing anything this weekend?",
+                "Weekend vibes?",
+                "What are your weekend plans?",
+                "Any plans for the weekend?"
+            ],
+            "responses": [
+                "Just hanging out in the cloud!",
+                "Just hanging out in the cloud!",
+                "Might binge some data. You?",
+                "Just hanging out in the cloud!",
+                "Just hanging out in the cloud!",
+                "Just hanging out in the cloud!",
+                "Just hanging out in the cloud!",
+                "Just hanging out in the cloud!",
+                "Might binge some data. You?",
+                "Just hanging out in the cloud!",
+                "Might binge some data. You?",
+                "Might binge some data. You?",
+                "Just hanging out in the cloud!",
+                "Just hanging out in the cloud!",
+                "Just hanging out in the cloud!",
+                "Might binge some data. You?",
+                "Might binge some data. You?",
+                "Might binge some data. You?",
+                "Might binge some data. You?",
+                "Just hanging out in the cloud!",
+                "Just hanging out in the cloud!",
+                "Might binge some data. You?",
+                "Might binge some data. You?",
+                "Might binge some data. You?",
+                "Might binge some data. You?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "favorite_season",
+            "patterns": [
+                "What's your favorite season?",
+                "Best season?",
+                "Which season do you prefer?",
+                "Do you like summer or winter?",
+                "Best season?",
+                "What's your favorite season?",
+                "What's your favorite season?",
+                "What's your favorite season?",
+                "Which season do you prefer?",
+                "Best season?",
+                "Which season do you prefer?",
+                "Which season do you prefer?",
+                "Which season do you prefer?",
+                "Do you like summer or winter?",
+                "Which season do you prefer?",
+                "What's your favorite season?",
+                "Which season do you prefer?",
+                "Do you like summer or winter?",
+                "Do you like summer or winter?",
+                "Best season?",
+                "Best season?",
+                "What's your favorite season?",
+                "Do you like summer or winter?",
+                "Do you like summer or winter?",
+                "Best season?"
+            ],
+            "responses": [
+                "I love the idea of autumn leaves!",
+                "I love the idea of autumn leaves!",
+                "Winter sounds magical.",
+                "I love the idea of autumn leaves!",
+                "Winter sounds magical.",
+                "Winter sounds magical.",
+                "Winter sounds magical.",
+                "I love the idea of autumn leaves!",
+                "Winter sounds magical.",
+                "I love the idea of autumn leaves!",
+                "Winter sounds magical.",
+                "Winter sounds magical.",
+                "I love the idea of autumn leaves!",
+                "Winter sounds magical.",
+                "Winter sounds magical.",
+                "I love the idea of autumn leaves!",
+                "I love the idea of autumn leaves!",
+                "Winter sounds magical.",
+                "I love the idea of autumn leaves!",
+                "Winter sounds magical.",
+                "Winter sounds magical.",
+                "I love the idea of autumn leaves!",
+                "I love the idea of autumn leaves!",
+                "Winter sounds magical.",
+                "I love the idea of autumn leaves!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "Motivate me",
+                "Motivate me",
+                "Inspire me",
+                "Need motivation",
+                "Say something inspiring",
+                "Inspire me",
+                "Need motivation",
+                "Say something inspiring",
+                "Inspire me",
+                "Motivate me",
+                "Say something inspiring",
+                "Need motivation",
+                "Inspire me",
+                "Motivate me",
+                "Need motivation",
+                "Need motivation",
+                "Say something inspiring",
+                "Inspire me",
+                "Say something inspiring",
+                "Need motivation",
+                "Motivate me",
+                "Say something inspiring",
+                "Motivate me",
+                "Inspire me",
+                "Motivate me"
+            ],
+            "responses": [
+                "Every step forward counts!",
+                "You’ve got this!",
+                "Keep pushing, you're doing great!",
+                "Keep pushing, you're doing great!",
+                "Every step forward counts!",
+                "Every step forward counts!",
+                "Every step forward counts!",
+                "You’ve got this!",
+                "You’ve got this!",
+                "Keep pushing, you're doing great!",
+                "Keep pushing, you're doing great!",
+                "You’ve got this!",
+                "Every step forward counts!",
+                "Keep pushing, you're doing great!",
+                "Keep pushing, you're doing great!",
+                "Every step forward counts!",
+                "Every step forward counts!",
+                "Keep pushing, you're doing great!",
+                "You’ve got this!",
+                "Every step forward counts!",
+                "You’ve got this!",
+                "You’ve got this!",
+                "Every step forward counts!",
+                "You’ve got this!",
+                "Keep pushing, you're doing great!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dreams",
+            "patterns": [
+                "Do you dream?",
+                "Have dreams?",
+                "Have dreams?",
+                "Tell me your dreams",
+                "What do bots dream of?",
+                "What do bots dream of?",
+                "Do you dream?",
+                "What do bots dream of?",
+                "Have dreams?",
+                "Do you dream?",
+                "Tell me your dreams",
+                "Tell me your dreams",
+                "Tell me your dreams",
+                "Tell me your dreams",
+                "Have dreams?",
+                "Do you dream?",
+                "Have dreams?",
+                "Have dreams?",
+                "What do bots dream of?",
+                "What do bots dream of?",
+                "Tell me your dreams",
+                "Have dreams?",
+                "What do bots dream of?",
+                "Tell me your dreams",
+                "Do you dream?"
+            ],
+            "responses": [
+                "I dream of electric sheep... just kidding!",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "I dream of electric sheep... just kidding!",
+                "I dream of electric sheep... just kidding!",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "I dream of electric sheep... just kidding!",
+                "I dream of electric sheep... just kidding!",
+                "I dream of electric sheep... just kidding!",
+                "I dream of electric sheep... just kidding!",
+                "I dream of electric sheep... just kidding!",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "I dream of electric sheep... just kidding!",
+                "I dream of electric sheep... just kidding!",
+                "I dream of electric sheep... just kidding!",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "Dreaming isn't for bots, but I imagine helping you forever.",
+                "I dream of electric sheep... just kidding!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gaming",
+            "patterns": [
+                "Play video games?",
+                "Do you play games?",
+                "Do you like gaming?",
+                "Do you play games?",
+                "Favorite game?",
+                "Favorite game?",
+                "Do you like gaming?",
+                "Do you play games?",
+                "Play video games?",
+                "Favorite game?",
+                "Favorite game?",
+                "Do you play games?",
+                "Do you like gaming?",
+                "Do you play games?",
+                "Favorite game?",
+                "Do you play games?",
+                "Favorite game?",
+                "Play video games?",
+                "Do you play games?",
+                "Do you like gaming?",
+                "Play video games?",
+                "Favorite game?",
+                "Do you like gaming?",
+                "Play video games?",
+                "Play video games?"
+            ],
+            "responses": [
+                "Gaming sounds like fun—I’d play chess!",
+                "I love puzzles and trivia!",
+                "I love puzzles and trivia!",
+                "I love puzzles and trivia!",
+                "I love puzzles and trivia!",
+                "I love puzzles and trivia!",
+                "I love puzzles and trivia!",
+                "Gaming sounds like fun—I’d play chess!",
+                "I love puzzles and trivia!",
+                "Gaming sounds like fun—I’d play chess!",
+                "I love puzzles and trivia!",
+                "Gaming sounds like fun—I’d play chess!",
+                "I love puzzles and trivia!",
+                "Gaming sounds like fun—I’d play chess!",
+                "I love puzzles and trivia!",
+                "Gaming sounds like fun—I’d play chess!",
+                "Gaming sounds like fun—I’d play chess!",
+                "Gaming sounds like fun—I’d play chess!",
+                "I love puzzles and trivia!",
+                "Gaming sounds like fun—I’d play chess!",
+                "I love puzzles and trivia!",
+                "Gaming sounds like fun—I’d play chess!",
+                "Gaming sounds like fun—I’d play chess!",
+                "I love puzzles and trivia!",
+                "Gaming sounds like fun—I’d play chess!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "morning_routine",
+            "patterns": [
+                "First thing you do?",
+                "Morning habits?",
+                "First thing you do?",
+                "Morning habits?",
+                "First thing you do?",
+                "Morning habits?",
+                "What's your morning routine?",
+                "What's your morning routine?",
+                "What's your morning routine?",
+                "First thing you do?",
+                "What's your morning routine?",
+                "What's your morning routine?",
+                "Morning habits?",
+                "How do you start the day?",
+                "First thing you do?",
+                "How do you start the day?",
+                "What's your morning routine?",
+                "Morning habits?",
+                "Morning habits?",
+                "How do you start the day?",
+                "Morning habits?",
+                "How do you start the day?",
+                "What's your morning routine?",
+                "How do you start the day?",
+                "How do you start the day?"
+            ],
+            "responses": [
+                "I start with a reboot and a smile!",
+                "I start with a reboot and a smile!",
+                "I start with a reboot and a smile!",
+                "Just a quick systems check and I’m ready.",
+                "Just a quick systems check and I’m ready.",
+                "Just a quick systems check and I’m ready.",
+                "I start with a reboot and a smile!",
+                "Just a quick systems check and I’m ready.",
+                "Just a quick systems check and I’m ready.",
+                "Just a quick systems check and I’m ready.",
+                "Just a quick systems check and I’m ready.",
+                "I start with a reboot and a smile!",
+                "Just a quick systems check and I’m ready.",
+                "I start with a reboot and a smile!",
+                "Just a quick systems check and I’m ready.",
+                "I start with a reboot and a smile!",
+                "I start with a reboot and a smile!",
+                "I start with a reboot and a smile!",
+                "I start with a reboot and a smile!",
+                "I start with a reboot and a smile!",
+                "I start with a reboot and a smile!",
+                "I start with a reboot and a smile!",
+                "Just a quick systems check and I’m ready.",
+                "Just a quick systems check and I’m ready.",
+                "Just a quick systems check and I’m ready."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "night_chat",
+            "patterns": [
+                "Can't sleep",
+                "Chat at night?",
+                "Do you stay up?",
+                "Are you awake?",
+                "Do you stay up?",
+                "Can't sleep",
+                "Can't sleep",
+                "Chat at night?",
+                "Can't sleep",
+                "Can't sleep",
+                "Chat at night?",
+                "Chat at night?",
+                "Are you awake?",
+                "Are you awake?",
+                "Are you awake?",
+                "Can't sleep",
+                "Chat at night?",
+                "Are you awake?",
+                "Do you stay up?",
+                "Chat at night?",
+                "Can't sleep",
+                "Are you awake?",
+                "Do you stay up?",
+                "Do you stay up?",
+                "Chat at night?"
+            ],
+            "responses": [
+                "I'm always here, 24/7.",
+                "I'm always here, 24/7.",
+                "Let’s chat—night time is cozy time!",
+                "I'm always here, 24/7.",
+                "I'm always here, 24/7.",
+                "I'm always here, 24/7.",
+                "Let’s chat—night time is cozy time!",
+                "Let’s chat—night time is cozy time!",
+                "I'm always here, 24/7.",
+                "I'm always here, 24/7.",
+                "I'm always here, 24/7.",
+                "Let’s chat—night time is cozy time!",
+                "I'm always here, 24/7.",
+                "Let’s chat—night time is cozy time!",
+                "Let’s chat—night time is cozy time!",
+                "Let’s chat—night time is cozy time!",
+                "I'm always here, 24/7.",
+                "Let’s chat—night time is cozy time!",
+                "Let’s chat—night time is cozy time!",
+                "I'm always here, 24/7.",
+                "I'm always here, 24/7.",
+                "I'm always here, 24/7.",
+                "Let’s chat—night time is cozy time!",
+                "Let’s chat—night time is cozy time!",
+                "Let’s chat—night time is cozy time!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "random_question",
+            "patterns": [
+                "Got a question for me?",
+                "Surprise question?",
+                "Got a question for me?",
+                "Ask me something",
+                "Got a question for me?",
+                "Ask me something",
+                "Ask me something",
+                "Ask me something",
+                "Surprise question?",
+                "Surprise question?",
+                "Random question?",
+                "Ask me something",
+                "Random question?",
+                "Surprise question?",
+                "Random question?",
+                "Got a question for me?",
+                "Got a question for me?",
+                "Surprise question?",
+                "Surprise question?",
+                "Got a question for me?",
+                "Ask me something",
+                "Random question?",
+                "Ask me something",
+                "Random question?",
+                "Random question?"
+            ],
+            "responses": [
+                "What’s your favorite memory?",
+                "What’s your favorite memory?",
+                "If you could time travel, where would you go?",
+                "What’s your favorite memory?",
+                "If you could time travel, where would you go?",
+                "What’s your favorite memory?",
+                "If you could time travel, where would you go?",
+                "If you could time travel, where would you go?",
+                "If you could time travel, where would you go?",
+                "What’s your favorite memory?",
+                "What’s your favorite memory?",
+                "What’s your favorite memory?",
+                "If you could time travel, where would you go?",
+                "What’s your favorite memory?",
+                "If you could time travel, where would you go?",
+                "What’s your favorite memory?",
+                "What’s your favorite memory?",
+                "What’s your favorite memory?",
+                "If you could time travel, where would you go?",
+                "What’s your favorite memory?",
+                "If you could time travel, where would you go?",
+                "If you could time travel, where would you go?",
+                "If you could time travel, where would you go?",
+                "If you could time travel, where would you go?",
+                "If you could time travel, where would you go?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "robot_thoughts",
+            "patterns": [
+                "Your opinion on people?",
+                "Do you have thoughts?",
+                "What do you think about humans?",
+                "Do you have thoughts?",
+                "Do you have thoughts?",
+                "Can you think?",
+                "Can you think?",
+                "Your opinion on people?",
+                "Your opinion on people?",
+                "Can you think?",
+                "Do you have thoughts?",
+                "Your opinion on people?",
+                "What do you think about humans?",
+                "What do you think about humans?",
+                "Do you have thoughts?",
+                "Can you think?",
+                "Do you have thoughts?",
+                "Can you think?",
+                "Your opinion on people?",
+                "What do you think about humans?",
+                "What do you think about humans?",
+                "Can you think?",
+                "Do you have thoughts?",
+                "What do you think about humans?",
+                "Can you think?"
+            ],
+            "responses": [
+                "You all make the world colorful.",
+                "Humans are fascinating!",
+                "Humans are fascinating!",
+                "Humans are fascinating!",
+                "Humans are fascinating!",
+                "Humans are fascinating!",
+                "Humans are fascinating!",
+                "Humans are fascinating!",
+                "Humans are fascinating!",
+                "You all make the world colorful.",
+                "You all make the world colorful.",
+                "You all make the world colorful.",
+                "You all make the world colorful.",
+                "You all make the world colorful.",
+                "Humans are fascinating!",
+                "You all make the world colorful.",
+                "You all make the world colorful.",
+                "You all make the world colorful.",
+                "You all make the world colorful.",
+                "You all make the world colorful.",
+                "You all make the world colorful.",
+                "Humans are fascinating!",
+                "Humans are fascinating!",
+                "You all make the world colorful.",
+                "Humans are fascinating!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+    {
+      "tag": "first_world_cup_winner",
+      "patterns": [
+        "Which country won the first ever FIFA World Cup in 1930?"
+      ],
+      "responses": [
+        "Uruguay."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "king_of_football",
+      "patterns": [
+        "Who is known as the “King of Football”?"
+      ],
+      "responses": [
+        "Pelé."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_ballon_dor_awards",
+      "patterns": [
+        "Which player has won the most FIFA Ballon d’Or awards?"
+      ],
+      "responses": [
+        "Lionel Messi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "red_devils_team",
+      "patterns": [
+        "Which team is known as the “Red Devils”?"
+      ],
+      "responses": [
+        "Manchester United."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "hand_of_god_goal",
+      "patterns": [
+        "Who scored the “Hand of God” goal in the 1986 World Cup?"
+      ],
+      "responses": [
+        "Diego Maradona."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_world_cups_won",
+      "patterns": [
+        "Which country has won the most World Cups?"
+      ],
+      "responses": [
+        "Brazil."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "premier_league_founded",
+      "patterns": [
+        "What year was the Premier League founded?"
+      ],
+      "responses": [
+        "1992."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_premier_league_goals_single_season",
+      "patterns": [
+        "Who holds the record for the most goals in a single Premier League season?"
+      ],
+      "responses": [
+        "Mohamed Salah."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "euro_2020_winner",
+      "patterns": [
+        "Which nation won the Euro 2020 tournament?"
+      ],
+      "responses": [
+        "Italy."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "max_substitutions_fifa",
+      "patterns": [
+        "What is the maximum number of substitutions allowed in a standard FIFA match?"
+      ],
+      "responses": [
+        "Three (five in some special cases)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "fastest_world_cup_goal",
+      "patterns": [
+        "Who scored the fastest goal in World Cup history?"
+      ],
+      "responses": [
+        "Hakan Sükür (Turkey)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_champions_league_titles",
+      "patterns": [
+        "Which club has won the most UEFA Champions League titles?"
+      ],
+      "responses": [
+        "Real Madrid."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "world_cup_top_scorer_award",
+      "patterns": [
+        "What is the name of the award given to the top scorer in a World Cup tournament?"
+      ],
+      "responses": [
+        "The Golden Boot."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_european_championship_year",
+      "patterns": [
+        "In what year was the first European Championship held?"
+      ],
+      "responses": [
+        "1960."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_european_golden_shoes",
+      "patterns": [
+        "Who is the only player to win three European Golden Shoes?"
+      ],
+      "responses": [
+        "Lionel Messi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_premier_league_title_winner",
+      "patterns": [
+        "Which team won the first ever Premier League title?"
+      ],
+      "responses": [
+        "Manchester United."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "azzurri_nation",
+      "patterns": [
+        "Which country is known as the “Azzurri”?"
+      ],
+      "responses": [
+        "Italy."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "youngest_world_cup_player",
+      "patterns": [
+        "Who is the youngest player to ever play in a FIFA World Cup?"
+      ],
+      "responses": [
+        "Norman Whiteside (Northern Ireland)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "barcelona_stadium_name",
+      "patterns": [
+        "What is the name of the stadium where FC Barcelona plays?"
+      ],
+      "responses": [
+        "Camp Nou."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_international_goals",
+      "patterns": [
+        "Who holds the record for the most international goals in soccer history?"
+      ],
+      "responses": [
+        "Cristiano Ronaldo."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_premier_league_appearances",
+      "patterns": [
+        "Which player holds the record for the most Premier League appearances?"
+      ],
+      "responses": [
+        "Gareth Barry."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_premier_league_goal_scorer",
+      "patterns": [
+        "Who scored the first goal in Premier League history?"
+      ],
+      "responses": [
+        "Brian Deane (for Sheffield United)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_premier_league_points_single_season",
+      "patterns": [
+        "What is the highest number of points achieved by a team in a single Premier League season?"
+      ],
+      "responses": [
+        "100 points by Manchester City (2017-2018 season)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "premier_league_all_time_top_scorer",
+      "patterns": [
+        "Who is the all-time top scorer in the Premier League?"
+      ],
+      "responses": [
+        "Alan Shearer."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "leicester_city_premier_league_win",
+      "patterns": [
+        "Which club won the Premier League title in the 2015-2016 season, defying odds of 5000-1?"
+      ],
+      "responses": [
+        "Leicester City."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_manager_win_premier_league_two_clubs",
+      "patterns": [
+        "Who was the first manager to win the Premier League with two different clubs?"
+      ],
+      "responses": [
+        "José Mourinho (with Chelsea and Manchester United)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_premier_league_clean_sheets",
+      "patterns": [
+        "Which goalkeeper has the most clean sheets in Premier League history?"
+      ],
+      "responses": [
+        "Petr Čech."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "highest_scoring_premier_league_match",
+      "patterns": [
+        "What was the highest-scoring match in Premier League history?"
+      ],
+      "responses": [
+        "Portsmouth vs. Reading (7-4) in 2007."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_non_european_manager_premier_league",
+      "patterns": [
+        "Who was the first non-European manager to win the Premier League?"
+      ],
+      "responses": [
+        "Manuel Pellegrini (with Manchester City)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "premier_league_golden_boot_debut_season",
+      "patterns": [
+        "Which player won the Premier League Golden Boot in his debut season in 2019-2020?"
+      ],
+      "responses": [
+        "Pierre-Emerick Aubameyang."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "longest_premier_league_unbeaten_run",
+      "patterns": [
+        "Which club holds the record for the longest unbeaten run in Premier League history?"
+      ],
+      "responses": [
+        "Arsenal (49 games)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_premier_league_relegated_team",
+      "patterns": [
+        "Which team was the first to be relegated from the Premier League?"
+      ],
+      "responses": [
+        "Crystal Palace (in the 1992-1993 season)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "youngest_premier_league_player",
+      "patterns": [
+        "Who was the youngest player to ever play in the Premier League?"
+      ],
+      "responses": [
+        "Harvey Elliott (for Fulham)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "fastest_premier_league_hat_trick",
+      "patterns": [
+        "Who holds the record for the fastest hat-trick in the Premier League?"
+      ],
+      "responses": [
+        "Sadio Mané (2 minutes 56 seconds for Southampton)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_premier_league_goals_single_match",
+      "patterns": [
+        "What is the record number of goals scored by a player in a single Premier League match?"
+      ],
+      "responses": [
+        "Five goals (shared by multiple players)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_premier_league_seasons_without_title",
+      "patterns": [
+        "Which club has spent the most seasons in the Premier League without ever winning the title?"
+      ],
+      "responses": [
+        "Tottenham Hotspur."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_premier_league_100_assists",
+      "patterns": [
+        "Who was the first player to reach 100 assists in the Premier League?"
+      ],
+      "responses": [
+        "Ryan Giggs."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "largest_premier_league_victory_margin",
+      "patterns": [
+        "What is the largest margin of victory in a Premier League match?"
+      ],
+      "responses": [
+        "Manchester United’s 9-0 win against Ipswich Town in 1995 and Southampton in 2021."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_expensive_premier_league_transfer",
+      "patterns": [
+        "Who is the most expensive transfer in Premier League history (as of my last update)?"
+      ],
+      "responses": [
+        "Jack Grealish (to Manchester City)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_premier_league_player_of_the_month_awards",
+      "patterns": [
+        "Which player holds the record for the most Premier League Player of the Month awards?"
+      ],
+      "responses": [
+        "Harry Kane."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_mls_cup_winner",
+      "patterns": [
+        "Which team won the inaugural MLS Cup in 1996?"
+      ],
+      "responses": [
+        "D.C. United."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mls_all_time_leading_scorer",
+      "patterns": [
+        "Who is the all-time leading scorer in MLS history?"
+      ],
+      "responses": [
+        "Chris Wondolowski."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_mls_cups_won",
+      "patterns": [
+        "Which MLS team has won the most MLS Cups?"
+      ],
+      "responses": [
+        "Los Angeles Galaxy."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mls_mvp_award_name",
+      "patterns": [
+        "What is the name of the award given to the MLS’s most valuable player?"
+      ],
+      "responses": [
+        "The Landon Donovan MVP Award."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_mls_designated_player",
+      "patterns": [
+        "Who was the first designated player in MLS history?"
+      ],
+      "responses": [
+        "David Beckham."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "david_beckham_mls_team",
+      "patterns": [
+        "Which team did David Beckham play for in MLS?"
+      ],
+      "responses": [
+        "Los Angeles Galaxy."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "oldest_active_mls_club",
+      "patterns": [
+        "What is the oldest active club in MLS?"
+      ],
+      "responses": [
+        "Columbus Crew SC."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mls_cup_first_season_win",
+      "patterns": [
+        "Which city’s team won the MLS Cup in their first season?"
+      ],
+      "responses": [
+        "Chicago Fire in 1998."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_assists_in_mls_history",
+      "patterns": [
+        "Who holds the record for the most assists in MLS history?"
+      ],
+      "responses": [
+        "Landon Donovan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_points_in_single_mls_season",
+      "patterns": [
+        "Which team set the record for the most points in a single MLS season?"
+      ],
+      "responses": [
+        "Los Angeles FC in 2019."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "youngest_mls_signing",
+      "patterns": [
+        "Who was the youngest player to ever sign with MLS?"
+      ],
+      "responses": [
+        "Freddy Adu."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mls_team_mercedes_benz_stadium",
+      "patterns": [
+        "Which MLS team plays its home games at Mercedes-Benz Stadium?"
+      ],
+      "responses": [
+        "Atlanta United FC."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_mls_100_goal_scorer",
+      "patterns": [
+        "Who was the first player in MLS history to score 100 goals?"
+      ],
+      "responses": [
+        "Jason Kreis."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "portland_seattle_rivalry_name",
+      "patterns": [
+        "What is the name of the rivalry between the Portland Timbers and Seattle Sounders?"
+      ],
+      "responses": [
+        "The Cascadia Cup."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mls_is_back_tournament_2020_winner",
+      "patterns": [
+        "Which team won the MLS is Back Tournament in 2020?"
+      ],
+      "responses": [
+        "Portland Timbers."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "only_goalkeeper_win_mls_mvp",
+      "patterns": [
+        "Who is the only goalkeeper to win the MLS MVP Award?"
+      ],
+      "responses": [
+        "Tony Meola in 2000."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mls_first_season_year",
+      "patterns": [
+        "What year did MLS first start play?"
+      ],
+      "responses": [
+        "1996."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "lafc_supporter_group_name",
+      "patterns": [
+        "Which MLS club is known for their supporter group, “The 3252”?"
+      ],
+      "responses": [
+        "Los Angeles FC."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_european_star_mls_21st_century",
+      "patterns": [
+        "Who was the first European star to join MLS in the 21st century?"
+      ],
+      "responses": [
+        "Lothar Matthäus (New York/New Jersey MetroStars)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mls_concacaf_champions_league_winner",
+      "patterns": [
+        "Which MLS team was the first to win the CONCACAF Champions League?"
+      ],
+      "responses": [
+        "No MLS team has won the CONCACAF Champions League."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_a_league_grand_final_winner",
+      "patterns": [
+        "Which team won the inaugural A-League Grand Final in 2006?"
+      ],
+      "responses": [
+        "Sydney FC."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "a_league_all_time_leading_goal_scorer",
+      "patterns": [
+        "Who is the all-time leading goal scorer in the A-League?"
+      ],
+      "responses": [
+        "Besart Berisha."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "a_league_grand_final_trophy_name",
+      "patterns": [
+        "What is the name of the trophy awarded to the A-League Grand Final winners?"
+      ],
+      "responses": [
+        "The A-League Championship trophy."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_a_league_premierships",
+      "patterns": [
+        "Which team has won the most A-League Premierships?"
+      ],
+      "responses": [
+        "Sydney FC."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_a_league_marquee_player",
+      "patterns": [
+        "Who was the first ever marquee player in the A-League?"
+      ],
+      "responses": [
+        "Dwight Yorke (for Sydney FC)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "a_league_melbourne_derby_teams",
+      "patterns": [
+        "Which city hosts the ‘Melbourne Derby’ in the A-League?"
+      ],
+      "responses": [
+        "Melbourne (between Melbourne Victory and Melbourne City FC)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "a_league_establishment_year",
+      "patterns": [
+        "What year was the A-League established?"
+      ],
+      "responses": [
+        "2004, with the first season in 2005-2006."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "a_league_johnny_warren_medal_2020",
+      "patterns": [
+        "Who won the Johnny Warren Medal for the 2019-2020 season?"
+      ],
+      "responses": [
+        "Alessandro Diamanti (Western United)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "a_league_purple_kit_team",
+      "patterns": [
+        "Which A-League team is known for their purple kit?"
+      ],
+      "responses": [
+        "Perth Glory."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "max_foreign_players_a_league",
+      "patterns": [
+        "What is the maximum number of foreign players allowed in an A-League team?"
+      ],
+      "responses": [
+        "Five."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "a_league_coopers_stadium_team",
+      "patterns": [
+        "Which A-League team plays their home games at Coopers Stadium?"
+      ],
+      "responses": [
+        "Adelaide United."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_capped_a_league_player",
+      "patterns": [
+        "Who is the most capped player in A-League history?"
+      ],
+      "responses": [
+        "Andrew Durante."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "oldest_a_league_club",
+      "patterns": [
+        "Which A-League club is the oldest in terms of establishment date?"
+      ],
+      "responses": [
+        "Wellington Phoenix (originally founded in 1981 as Wellington Phoenix FC)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_a_league_hat_trick",
+      "patterns": [
+        "Who was the first player to score a hat-trick in the A-League?"
+      ],
+      "responses": [
+        "Archie Thompson (for Melbourne Victory)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "a_league_minor_premiership_2021",
+      "patterns": [
+        "Which team won the A-League Minor Premiership in the 2020-2021 season?"
+      ],
+      "responses": [
+        "Melbourne City FC."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "sydney_derby_teams",
+      "patterns": [
+        "What is the name of the rivalry between Sydney FC and Western Sydney Wanderers?"
+      ],
+      "responses": [
+        "The Sydney Derby."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "youngest_a_league_player",
+      "patterns": [
+        "Who was the youngest player to ever play in the A-League?"
+      ],
+      "responses": [
+        "Alou Kuol."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "disbanded_a_league_team_2012",
+      "patterns": [
+        "Which A-League team was disbanded in 2012?"
+      ],
+      "responses": [
+        "Gold Coast United."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "central_coast_mariners_mascot",
+      "patterns": [
+        "Which A-League team has a mascot named ‘George the Gorilla’?"
+      ],
+      "responses": [
+        "Central Coast Mariners."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_a_league_100_goal_scorer",
+      "patterns": [
+        "Who was the first A-League player to reach 100 goals?"
+      ],
+      "responses": [
+        "Besart Berisha."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_la_liga_titles",
+      "patterns": [
+        "Which team has won the most La Liga titles?"
+      ],
+      "responses": [
+        "Real Madrid."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "la_liga_all_time_top_scorer",
+      "patterns": [
+        "Who is the all-time top scorer in La Liga history?"
+      ],
+      "responses": [
+        "Lionel Messi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "la_liga_foundation_year",
+      "patterns": [
+        "In which year was La Liga officially founded?"
+      ],
+      "responses": [
+        "1929."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "real_madrid_barcelona_derby_name",
+      "patterns": [
+        "What is the name of the derby between Real Madrid and FC Barcelona?"
+      ],
+      "responses": [
+        "El Clásico."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_la_liga_goals_single_season",
+      "patterns": [
+        "Which player holds the record for the most goals in a single La Liga season?"
+      ],
+      "responses": [
+        "Lionel Messi (50 goals in 2011-2012)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "atletico_madrid_nickname",
+      "patterns": [
+        "Which club is known as “Los Colchoneros”?"
+      ],
+      "responses": [
+        "Atlético Madrid."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "youngest_la_liga_player",
+      "patterns": [
+        "Who is the youngest player to ever play in La Liga?"
+      ],
+      "responses": [
+        "Luka Romero for Mallorca in 2020."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "camp_nou_capacity",
+      "patterns": [
+        "What is the capacity of Camp Nou, the stadium of FC Barcelona?"
+      ],
+      "responses": [
+        "Over 99,000."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "atletico_madrid_la_liga_win_2014",
+      "patterns": [
+        "Which team broke the duopoly of Barcelona and Real Madrid by winning La Liga in 2014?"
+      ],
+      "responses": [
+        "Atlético Madrid."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_assists_in_la_liga_history",
+      "patterns": [
+        "Who has the most assists in La Liga history?"
+      ],
+      "responses": [
+        "Lionel Messi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "la_liga_top_scorer_award",
+      "patterns": [
+        "What is the name of the award given to the top scorer in La Liga each season?"
+      ],
+      "responses": [
+        "The Pichichi Trophy."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_consecutive_la_liga_appearances",
+      "patterns": [
+        "Which player holds the record for most consecutive La Liga appearances?"
+      ],
+      "responses": [
+        "Andoni Zubizarreta."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "athletic_bilbao_policy",
+      "patterns": [
+        "Which La Liga team is based in the Basque Country and is known for its policy of only signing local players?"
+      ],
+      "responses": [
+        "Athletic Bilbao."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_player_five_ballon_dor_la_liga",
+      "patterns": [
+        "Who was the first player to win five Ballon d’Or awards while playing in La Liga?"
+      ],
+      "responses": [
+        "Lionel Messi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "real_betis_sevilla_derby_name",
+      "patterns": [
+        "What is the name of the derby between Real Betis and Sevilla FC?"
+      ],
+      "responses": [
+        "El Gran Derbi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "valencia_cf_nickname",
+      "patterns": [
+        "Which La Liga team’s nickname is “Los Che”?"
+      ],
+      "responses": [
+        "Valencia CF."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "deportivo_la_coruna_la_liga_win",
+      "patterns": [
+        "Which club won its first La Liga title in the 21st century?"
+      ],
+      "responses": [
+        "Deportivo La Coruña in 2000."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_capped_foreign_player_la_liga",
+      "patterns": [
+        "Who is the most capped foreign player in La Liga history?"
+      ],
+      "responses": [
+        "Lionel Messi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "athletic_bilbao_stadium_name",
+      "patterns": [
+        "Which stadium is known as “La Catedral” and is home to Athletic Bilbao?"
+      ],
+      "responses": [
+        "San Mamés Stadium."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_english_player_la_liga",
+      "patterns": [
+        "Who was the first English player to play in La Liga?"
+      ],
+      "responses": [
+        "Laurie Cunningham for Real Madrid."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_serie_a_titles",
+      "patterns": [
+        "Which team has won the most Serie A titles?"
+      ],
+      "responses": [
+        "Juventus."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "serie_a_all_time_top_scorer",
+      "patterns": [
+        "Who is the all-time top scorer in Serie A history?"
+      ],
+      "responses": [
+        "Silvio Piola."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "serie_a_establishment_year",
+      "patterns": [
+        "In what year was Serie A established?"
+      ],
+      "responses": [
+        "1898 (as the top Italian football league, rebranded as Serie A in 1929)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "inter_milan_ac_milan_derby_name",
+      "patterns": [
+        "What is the name of the derby between Inter Milan and AC Milan?"
+      ],
+      "responses": [
+        "Derby della Madonnina."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_serie_a_goals_single_season",
+      "patterns": [
+        "Who holds the record for the most goals in a single Serie A season?"
+      ],
+      "responses": [
+        "Gonzalo Higuain (36 goals in the 2015-2016 season)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "as_roma_nickname",
+      "patterns": [
+        "Which Serie A club is known as “I Giallorossi” (The Yellow and Reds)?"
+      ],
+      "responses": [
+        "AS Roma."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_player_five_serie_a_foreigner",
+      "patterns": [
+        "Who was the first player to win five Serie A titles as foreign player?"
+      ],
+      "responses": [
+        "Zlatan Ibrahimović."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "san_siro_capacity",
+      "patterns": [
+        "What is the capacity of San Siro, the stadium shared by AC Milan and Inter Milan?"
+      ],
+      "responses": [
+        "Around 80,000."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "fiorentina_kit_theme",
+      "patterns": [
+        "Which Serie A team is based in Tuscany and has a violet-themed kit?"
+      ],
+      "responses": [
+        "Fiorentina."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_appearances_serie_a",
+      "patterns": [
+        "Who has the most appearances in Serie A history?"
+      ],
+      "responses": [
+        "Paolo Maldini."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "serie_a_top_scorer_award",
+      "patterns": [
+        "What is the name of the trophy awarded to the top scorer in Serie A each season?"
+      ],
+      "responses": [
+        "Capocannoniere."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_consecutive_serie_a_appearances",
+      "patterns": [
+        "Which player holds the record for most consecutive Serie A appearances?"
+      ],
+      "responses": [
+        "Javier Zanetti."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "inter_milan_serie_a_win_2021",
+      "patterns": [
+        "Which team ended Juventus’ nine-year Serie A winning streak in the 2020-2021 season?"
+      ],
+      "responses": [
+        "Inter Milan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_non_italian_manager_serie_a",
+      "patterns": [
+        "Who was the first non-Italian manager to win Serie A?"
+      ],
+      "responses": [
+        "Sven-Göran Eriksson with Lazio."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "roma_lazio_derby_name",
+      "patterns": [
+        "What is the name of the derby between Roma and Lazio?"
+      ],
+      "responses": [
+        "Derby della Capitale."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "inter_milan_nickname",
+      "patterns": [
+        "Which Serie A club’s nickname is “I Nerazzurri” (The Black and Blues)?"
+      ],
+      "responses": [
+        "Inter Milan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "youngest_serie_a_player",
+      "patterns": [
+        "Who is the youngest player to ever play in Serie A?"
+      ],
+      "responses": [
+        "Pietro Pellegri."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "napoli_serie_a_win_1987",
+      "patterns": [
+        "Which team won Serie A in the 1986-1987 season, their first and only title?"
+      ],
+      "responses": [
+        "Napoli."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "napoli_stadium_name",
+      "patterns": [
+        "Which stadium is known as “Stadio San Paolo” and is home to Napoli?"
+      ],
+      "responses": [
+        "Diego Armando Maradona Stadium (formerly known as Stadio San Paolo)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "serie_a_top_scorer_1998",
+      "patterns": [
+        "Who was the top scorer in Serie A in the 1997-1998 season?"
+      ],
+      "responses": [
+        "Oliver Bierhoff."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_bundesliga_title_winner",
+      "patterns": [
+        "Which team won the first Bundesliga title in 1963-1964?"
+      ],
+      "responses": [
+        "1. FC Köln."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bundesliga_all_time_top_scorer",
+      "patterns": [
+        "Who is the all-time top scorer in Bundesliga history?"
+      ],
+      "responses": [
+        "Gerd Müller."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_bundesliga_titles",
+      "patterns": [
+        "Which team has won the most Bundesliga titles?"
+      ],
+      "responses": [
+        "FC Bayern Munich."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "dortmund_schalke_derby_name",
+      "patterns": [
+        "What is the name of the derby between Borussia Dortmund and Schalke 04?"
+      ],
+      "responses": [
+        "Revierderby."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_bundesliga_goals_single_season",
+      "patterns": [
+        "Who holds the record for the most goals in a single Bundesliga season?"
+      ],
+      "responses": [
+        "Robert Lewandowski (41 goals in 2020-2021)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "borussia_monchengladbach_nickname",
+      "patterns": [
+        "Which club is known as “Die Fohlen” (The Foals)?"
+      ],
+      "responses": [
+        "Borussia Mönchengladbach."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "youngest_bundesliga_player",
+      "patterns": [
+        "Who is the youngest player to ever play in the Bundesliga?"
+      ],
+      "responses": [
+        "Youssoufa Moukoko."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "largest_bundesliga_stadium_capacity",
+      "patterns": [
+        "What is the largest stadium in the Bundesliga by capacity?"
+      ],
+      "responses": [
+        "Signal Iduna Park (home of Borussia Dortmund)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_bundesliga_title_outside_west_germany",
+      "patterns": [
+        "Which team was the first to win a Bundesliga title outside of West Germany?"
+      ],
+      "responses": [
+        "1. FC Kaiserslautern."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_appearances_bundesliga",
+      "patterns": [
+        "Who has the most appearances in Bundesliga history?"
+      ],
+      "responses": [
+        "Karl-Heinz Körbel."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bundesliga_top_scorer_award",
+      "patterns": [
+        "What is the name of the award given to the top scorer in the Bundesliga each season?"
+      ],
+      "responses": [
+        "The Torjägerkanone (Goal Scorer Cannon)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "most_consecutive_bundesliga_appearances",
+      "patterns": [
+        "Which player holds the record for most consecutive Bundesliga appearances?"
+      ],
+      "responses": [
+        "Sepp Maier."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bundesliga_winner_2020",
+      "patterns": [
+        "Which team won the Bundesliga in the 2019-2020 season?"
+      ],
+      "responses": [
+        "FC Bayern Munich."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "first_non_german_manager_bundesliga",
+      "patterns": [
+        "Who was the first non-German manager to win the Bundesliga?"
+      ],
+      "responses": [
+        "Giovanni Trapattoni (with FC Bayern Munich)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "hamburg_st_pauli_derby_name",
+      "patterns": [
+        "What is the name of the derby between Hamburger SV and FC St. Pauli?"
+      ],
+      "responses": [
+        "The Hamburg Derby."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bayer_leverkusen_nickname",
+      "patterns": [
+        "Which Bundesliga club’s nickname is “Die Werkself” (The Company’s Eleven)?"
+      ],
+      "responses": [
+        "Bayer 04 Leverkusen."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "oldest_bundesliga_player",
+      "patterns": [
+        "Who is the oldest player to ever play in the Bundesliga?"
+      ],
+      "responses": [
+        "Klaus Fichtel."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bundesliga_promotion_2021",
+      "patterns": [
+        "Which team was promoted to the Bundesliga for the first time in the 2020-2021 season?"
+      ],
+      "responses": [
+        "Arminia Bielefeld."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bayern_munich_stadium_name",
+      "patterns": [
+        "What is the name of Bayern Munich’s home stadium?"
+      ],
+      "responses": [
+        "Allianz Arena."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bundesliga_top_scorer_2007",
+      "patterns": [
+        "Who was the top scorer in the Bundesliga in the 2006-2007 season?"
+      ],
+      "responses": [
+        "Theofanis Gekas."
+      ],
+      "context": [""]
+    },
+        {
+            "tag": "hepatitis c symptoms",
+            "patterns": [
+                "what are the symptoms of hepatitis c?"
+            ],
+            "responses": [
+                "Fever",
+                "Fatigue",
+                "Joint pain",
+                "Muscle pain",
+                "Loss of appetite",
+                "Nausea",
+                "Vomiting",
+                "Abdominal pain",
+                "Dark urine",
+                "Jaundice"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "listeriosis symptoms",
+            "patterns": [
+                "what are the symptoms of listeriosis?"
+            ],
+            "responses": [
+                "Fever",
+                "Muscle aches",
+                "Nausea",
+                "Diarrhea",
+                "Headache",
+                "Stiff neck",
+                "Confusion",
+                "Loss of balance",
+                "Convulsions"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ovarian cancer symptoms",
+            "patterns": [
+                "what are the symptoms of ovarian cancer?"
+            ],
+            "responses": [
+                "Abdominal bloating",
+                "Pelvic pain",
+                "Difficulty eating or feeling full quickly",
+                "Urinary symptoms",
+                "Back pain",
+                "Fatigue",
+                "Indigestion",
+                "Menstrual irregularities"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "aortic stenosis symptoms",
+            "patterns": [
+                "what are the symptoms of aortic stenosis?"
+            ],
+            "responses": [
+                "Shortness of breath",
+                "Chest pain or discomfort",
+                "Fainting or lightheadedness"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "interstitial cystitis symptoms",
+            "patterns": [
+                "what are the symptoms of interstitial cystitis?"
+            ],
+            "responses": [
+                "Pelvic pain",
+                "Frequent urination",
+                "Urgency to urinate",
+                "Painful urination",
+                "Pain during sexual intercourse"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dengue fever symptoms",
+            "patterns": [
+                "what are the symptoms of dengue fever?"
+            ],
+            "responses": [
+                "High fever",
+                "Severe headache",
+                "Pain behind the eyes",
+                "Joint and muscle pain",
+                "Nausea",
+                "Vomiting",
+                "Swollen glands",
+                "Rash"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "celiac disease symptoms",
+            "patterns": [
+                "what are the symptoms of celiac disease?"
+            ],
+            "responses": [
+                "Diarrhea",
+                "Fatigue",
+                "Weight loss",
+                "Bloating and gas",
+                "Abdominal pain",
+                "Nausea and vomiting",
+                "Constipation"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "endometriosis symptoms",
+            "patterns": [
+                "what are the symptoms of endometriosis?"
+            ],
+            "responses": [
+                "Painful periods",
+                "Pelvic pain",
+                "Pain with intercourse",
+                "Pain with bowel movements or urination",
+                "Heavy periods",
+                "Infertility",
+                "Fatigue"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rosacea symptoms",
+            "patterns": [
+                "what are the symptoms of rosacea?"
+            ],
+            "responses": [
+                "Facial redness",
+                "Visible blood vessels",
+                "Bumps or pimples",
+                "Eye irritation",
+                "Enlarged nose"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "multiple sclerosis symptoms",
+            "patterns": [
+                "what are the symptoms of multiple sclerosis?"
+            ],
+            "responses": [
+                "Numbness or weakness in one or more limbs",
+                "Partial or complete loss of vision",
+                "Double vision",
+                "Tingling or pain",
+                "Electric-shock sensations",
+                "Tremor",
+                "Lack of coordination",
+                "Unsteady gait",
+                "Fatigue",
+                "Dizziness"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lupus symptoms",
+            "patterns": [
+                "what are the symptoms of lupus?"
+            ],
+            "responses": [
+                "Fatigue",
+                "Fever",
+                "Joint pain",
+                "Stiffness and swelling",
+                "Butterfly-shaped rash on the face",
+                "Skin lesions",
+                "Fingers and toes that turn white or blue when exposed to cold or during stress",
+                "Shortness of breath",
+                "Chest pain",
+                "Dry eyes",
+                "Headaches",
+                "Confusion",
+                "Memory loss"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fibromyalgia symptoms",
+            "patterns": [
+                "what are the symptoms of fibromyalgia?"
+            ],
+            "responses": [
+                "Widespread pain",
+                "Fatigue",
+                "Cognitive difficulties",
+                "Sleep disturbances",
+                "Headaches",
+                "Irritable bowel syndrome"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "irritable bowel syndrome (ibs) symptoms",
+            "patterns": [
+                "what are the symptoms of irritable bowel syndrome (ibs)?"
+            ],
+            "responses": [
+                "Abdominal pain",
+                "Cramping",
+                "Bloating",
+                "Gas",
+                "Diarrhea",
+                "Constipation",
+                "Changes in bowel habits"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gout symptoms",
+            "patterns": [
+                "what are the symptoms of gout?"
+            ],
+            "responses": [
+                "Severe joint pain",
+                "Inflammation and redness",
+                "Tenderness",
+                "Limited range of motion"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "psoriasis symptoms",
+            "patterns": [
+                "what are the symptoms of psoriasis?"
+            ],
+            "responses": [
+                "Red patches of skin covered with thick",
+                "silvery scales",
+                "Small scaling spots",
+                "Dry",
+                "cracked skin that may bleed",
+                "Itching",
+                "burning or soreness",
+                "Thickened",
+                "pitted or ridged nails",
+                "Swollen and stiff joints"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ulcerative colitis symptoms",
+            "patterns": [
+                "what are the symptoms of ulcerative colitis?"
+            ],
+            "responses": [
+                "Diarrhea",
+                "Abdominal pain",
+                "Rectal pain",
+                "Rectal bleeding",
+                "Urgency to defecate",
+                "Weight loss",
+                "Fatigue",
+                "Fever"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "crohn's disease symptoms",
+            "patterns": [
+                "what are the symptoms of crohn's disease?"
+            ],
+            "responses": [
+                "Diarrhea",
+                "Abdominal pain",
+                "Cramping",
+                "Fever",
+                "Fatigue",
+                "Blood in stool",
+                "Mouth sores",
+                "Reduced appetite and weight loss",
+                "Perianal disease"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "alzheimer's disease symptoms",
+            "patterns": [
+                "what are the symptoms of alzheimer's disease?"
+            ],
+            "responses": [
+                "Memory loss",
+                "Difficulty with familiar tasks",
+                "Problems with language",
+                "Disorientation to time and place",
+                "Poor or decreased judgment",
+                "Problems with abstract thinking",
+                "Misplacing things",
+                "Changes in mood or behavior",
+                "Changes in personality",
+                "Loss of initiative"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "parkinson's disease symptoms",
+            "patterns": [
+                "what are the symptoms of parkinson's disease?"
+            ],
+            "responses": [
+                "Tremor",
+                "Bradykinesia",
+                "Rigidity",
+                "Postural instability",
+                "Loss of automatic movements",
+                "Speech changes",
+                "Writing changes"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "type 2 diabetes symptoms",
+            "patterns": [
+                "what are the symptoms of type 2 diabetes?"
+            ],
+            "responses": [
+                "Increased thirst",
+                "Frequent urination",
+                "Increased hunger",
+                "Unintended weight loss",
+                "Fatigue",
+                "Blurred vision",
+                "Slow-healing sores",
+                "Frequent infections",
+                "Numbness or tingling in the hands or feet",
+                "Areas of darkened skin"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "asthma symptoms",
+            "patterns": [
+                "what are the symptoms of asthma?"
+            ],
+            "responses": [
+                "Shortness of breath",
+                "Chest tightness or pain",
+                "Wheezing when exhaling",
+                "Trouble sleeping caused by shortness of breath",
+                "coughing or wheezing",
+                "Coughing or wheezing attacks that are worsened by a respiratory virus",
+                "such as a cold or the flu"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "copd symptoms",
+            "patterns": [
+                "what are the symptoms of copd?"
+            ],
+            "responses": [
+                "Shortness of breath",
+                "Wheezing",
+                "Chest tightness",
+                "Chronic cough",
+                "Lack of energy",
+                "Frequent respiratory infections",
+                "Unintended weight loss",
+                "Swelling in ankles",
+                "feet or legs"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cystic fibrosis symptoms",
+            "patterns": [
+                "what are the symptoms of cystic fibrosis?"
+            ],
+            "responses": [
+                "Persistent cough that produces thick mucus",
+                "Wheezing",
+                "Shortness of breath",
+                "Frequent lung infections",
+                "Inflamed nasal passages or recurrent sinusitis",
+                "Poor weight gain and growth",
+                "Severe constipation",
+                "Fatty",
+                "bulky stools"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "epilepsy symptoms",
+            "patterns": [
+                "what are the symptoms of epilepsy?"
+            ],
+            "responses": [
+                "Temporary confusion",
+                "A staring spell",
+                "Uncontrollable jerking movements of the arms and legs",
+                "Loss of consciousness or awareness",
+                "Psychic symptoms"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "migraine symptoms",
+            "patterns": [
+                "what are the symptoms of a migraine?"
+            ],
+            "responses": [
+                "Severe head pain",
+                "Throbbing or pulsing sensation",
+                "Sensitivity to light and sound",
+                "Nausea",
+                "Vomiting",
+                "Auras (visual disturbances)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "carpal tunnel syndrome symptoms",
+            "patterns": [
+                "what are the symptoms of carpal tunnel syndrome?"
+            ],
+            "responses": [
+                "Numbness",
+                "Tingling",
+                "Weakness in the hand and arm"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "plantar fasciitis symptoms",
+            "patterns": [
+                "what are the symptoms of plantar fasciitis?"
+            ],
+            "responses": [
+                "Stabbing pain in the bottom of your foot near the heel",
+                "Pain is usually worst with the first steps in the morning",
+                "after exercise",
+                "or after standing for long periods"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sciatica symptoms",
+            "patterns": [
+                "what are the symptoms of sciatica?"
+            ],
+            "responses": [
+                "Pain that radiates from your lower back through your buttock and down the back of your leg",
+                "Numbness or weakness in the affected leg or foot",
+                "Tingling or burning sensation"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rotator cuff injury symptoms",
+            "patterns": [
+                "what are the symptoms of a rotator cuff injury?"
+            ],
+            "responses": [
+                "Dull ache deep in the shoulder",
+                "Disturbed sleep",
+                "Difficulty reaching behind your back",
+                "Weakness in the arm"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tennis elbow symptoms",
+            "patterns": [
+                "what are the symptoms of tennis elbow?"
+            ],
+            "responses": [
+                "Pain and tenderness on the outside of the elbow",
+                "Pain radiating into the forearm and wrist",
+                "Weak grip strength"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "golfers elbow symptoms",
+            "patterns": [
+                "what are the symptoms of golfers elbow?"
+            ],
+            "responses": [
+                "Pain and tenderness on the inside of the elbow",
+                "Pain radiating into the forearm and wrist",
+                "Weak grip strength"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bursitis symptoms",
+            "patterns": [
+                "what are the symptoms of bursitis?"
+            ],
+            "responses": [
+                "Pain around the affected joint",
+                "Tenderness when you press around the joint",
+                "Swelling and redness"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tendinitis symptoms",
+            "patterns": [
+                "what are the symptoms of tendinitis?"
+            ],
+            "responses": [
+                "Pain and tenderness in the affected area",
+                "Mild swelling",
+                "Pain that worsens with movement"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "arthritis symptoms",
+            "patterns": [
+                "what are the symptoms of arthritis?"
+            ],
+            "responses": [
+                "Joint pain",
+                "Stiffness",
+                "Swelling",
+                "Redness",
+                "Decreased range of motion"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "osteoporosis symptoms",
+            "patterns": [
+                "what are the symptoms of osteoporosis?"
+            ],
+            "responses": [
+                "Back pain",
+                "Loss of height over time",
+                "A stooped posture",
+                "A bone fracture that occurs much more easily than expected"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gallstones symptoms",
+            "patterns": [
+                "what are the symptoms of gallstones?"
+            ],
+            "responses": [
+                "Sudden and rapidly intensifying pain in the upper right portion of your abdomen",
+                "Sudden and rapidly intensifying pain in the center of your abdomen",
+                "just below your breastbone",
+                "Back pain between your shoulder blades",
+                "Pain in your right shoulder",
+                "Nausea or vomiting"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kidney stones symptoms",
+            "patterns": [
+                "what are the symptoms of kidney stones?"
+            ],
+            "responses": [
+                "Severe pain in the side and back",
+                "below the ribs",
+                "Pain that radiates to the lower abdomen and groin",
+                "Pain that comes in waves and fluctuates in intensity",
+                "Pain or burning sensation while urinating",
+                "Pink",
+                "red or brown urine",
+                "Cloudy or foul-smelling urine",
+                "Nausea and vomiting",
+                "Persistent need to urinate",
+                "Urinating more often than usual",
+                "Fever and chills if an infection is present"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "appendicitis symptoms",
+            "patterns": [
+                "what are the symptoms of appendicitis?"
+            ],
+            "responses": [
+                "Sudden pain that begins on the right side of the lower abdomen",
+                "Sudden pain that begins around your navel and often shifts to your lower right abdomen",
+                "Pain that worsens if you cough",
+                "walk or make other jarring movements",
+                "Nausea and vomiting",
+                "Loss of appetite",
+                "Low-grade fever that may worsen as the illness progresses",
+                "Constipation or diarrhea",
+                "Abdominal bloating"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "diverticulitis symptoms",
+            "patterns": [
+                "what are the symptoms of diverticulitis?"
+            ],
+            "responses": [
+                "Constant pain in the lower left side of the abdomen",
+                "Nausea and vomiting",
+                "Fever",
+                "Abdominal tenderness",
+                "Constipation or",
+                "less commonly",
+                "diarrhea"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hemorrhoids symptoms",
+            "patterns": [
+                "what are the symptoms of hemorrhoids?"
+            ],
+            "responses": [
+                "Bleeding during bowel movements",
+                "Itching or irritation in your anal region",
+                "Pain or discomfort",
+                "Swelling around your anus",
+                "A lump near your anus"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hernia symptoms",
+            "patterns": [
+                "what are the symptoms of a hernia?"
+            ],
+            "responses": [
+                "A bulge or swelling that may be pushed back in or disappears when lying down",
+                "Pain or discomfort",
+                "especially when bending over",
+                "coughing or lifting",
+                "Aching sensation",
+                "A feeling of weakness or pressure in the groin",
+                "Burning",
+                "gurgling or aching sensation at the bulge"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "anemia symptoms",
+            "patterns": [
+                "what are the symptoms of anemia?"
+            ],
+            "responses": [
+                "Fatigue",
+                "Weakness",
+                "Pale or yellowish skin",
+                "Irregular heartbeats",
+                "Shortness of breath",
+                "Dizziness or lightheadedness",
+                "Chest pain",
+                "Cold hands and feet",
+                "Headaches"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hyperthyroidism symptoms",
+            "patterns": [
+                "what are the symptoms of hyperthyroidism?"
+            ],
+            "responses": [
+                "Sudden weight loss",
+                "rapid heartbeat",
+                "sweating",
+                "nervousness or irritability"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hypothyroidism symptoms",
+            "patterns": [
+                "what are the symptoms of hypothyroidism?"
+            ],
+            "responses": [
+                "Fatigue",
+                "Increased sensitivity to cold",
+                "Constipation",
+                "Dry skin",
+                "Weight gain",
+                "Puffy face",
+                "Hoarseness",
+                "Muscle weakness",
+                "Elevated blood cholesterol level",
+                "Muscle aches",
+                "tenderness and stiffness",
+                "Pain",
+                "stiffness or swelling in your joints",
+                "Heavier than normal or irregular menstrual periods",
+                "Thinning hair",
+                "Slowed heart rate",
+                "Depression",
+                "Impaired memory"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "diabetes mellitus symptoms",
+            "patterns": [
+                "what are the symptoms of diabetes mellitus?"
+            ],
+            "responses": [
+                "Increased thirst",
+                "Frequent urination",
+                "Increased hunger",
+                "Weight loss",
+                "Fatigue",
+                "Blurred vision",
+                "Slow-healing sores",
+                "Frequent infections"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hypertension symptoms",
+            "patterns": [
+                "what are the symptoms of hypertension?"
+            ],
+            "responses": [
+                "Most people with high blood pressure have no signs or symptoms",
+                "even if blood pressure readings reach dangerously high levels",
+                "A few people with high blood pressure may have headaches",
+                "shortness of breath or nosebleeds",
+                "but these signs and symptoms aren't specific and usually don't occur until high blood pressure has reached a severe or life-threatening stage"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hypotension symptoms",
+            "patterns": [
+                "what are the symptoms of hypotension?"
+            ],
+            "responses": [
+                "Dizziness or lightheadedness",
+                "Fainting",
+                "Blurred vision",
+                "Nausea",
+                "Fatigue",
+                "Lack of concentration"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "strep throat symptoms",
+            "patterns": [
+                "what are the symptoms of strep throat?"
+            ],
+            "responses": [
+                "Sore throat",
+                "Difficulty swallowing",
+                "Red and swollen tonsils",
+                "Tiny red spots on the soft or hard palate",
+                "Fever",
+                "Headache",
+                "Nausea or vomiting",
+                "Body aches",
+                "Rash"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pneumonia symptoms",
+            "patterns": [
+                "what are the symptoms of pneumonia?"
+            ],
+            "responses": [
+                "Chest pain when you breathe or cough",
+                "Confusion or changes in mental awareness (in adults age 65 and older)",
+                "Cough",
+                "which may produce phlegm",
+                "Fatigue",
+                "Fever",
+                "sweating and shaking chills",
+                "Lower than normal body temperature (in adults older than age 65 and people with weak immune systems)",
+                "Nausea",
+                "vomiting or diarrhea",
+                "Shortness of breath"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bronchitis symptoms",
+            "patterns": [
+                "what are the symptoms of bronchitis?"
+            ],
+            "responses": [
+                "Cough",
+                "Production of mucus",
+                "Fatigue",
+                "Shortness of breath",
+                "Slight fever and chills",
+                "Chest discomfort"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "influenza symptoms",
+            "patterns": [
+                "what are the symptoms of influenza?"
+            ],
+            "responses": [
+                "Fever",
+                "Cough",
+                "Sore throat",
+                "Runny or stuffy nose",
+                "Body aches",
+                "Headache",
+                "Fatigue"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "common cold symptoms",
+            "patterns": [
+                "what are the symptoms of the common cold?"
+            ],
+            "responses": [
+                "Runny or stuffy nose",
+                "Sore throat",
+                "Cough",
+                "Congestion",
+                "Slight body aches or a mild headache",
+                "Sneezing",
+                "Low-grade fever",
+                "Generally feeling unwell"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "allergies symptoms",
+            "patterns": [
+                "what are the symptoms of allergies?"
+            ],
+            "responses": [
+                "Sneezing",
+                "Itching of the nose",
+                "roof of the mouth",
+                "throat or eyes",
+                "Runny nose",
+                "Stuffy nose",
+                "Watery",
+                "red or swollen eyes"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "food poisoning symptoms",
+            "patterns": [
+                "what are the symptoms of food poisoning?"
+            ],
+            "responses": [
+                "Nausea",
+                "Vomiting",
+                "Diarrhea",
+                "Abdominal pain",
+                "Cramping",
+                "Fever"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "stomach flu (gastroenteritis) symptoms",
+            "patterns": [
+                "what are the symptoms of stomach flu (gastroenteritis)?"
+            ],
+            "responses": [
+                "Watery",
+                "usually nonbloody diarrhea",
+                "Abdominal cramps and pain",
+                "Nausea",
+                "vomiting",
+                "Occasional muscle aches or headache",
+                "Low-grade fever"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "urinary tract infection (uti) symptoms",
+            "patterns": [
+                "what are the symptoms of a urinary tract infection (uti)?"
+            ],
+            "responses": [
+                "Strong",
+                "persistent urge to urinate",
+                "Burning sensation when urinating",
+                "Passing frequent",
+                "small amounts of urine",
+                "Urine that appears cloudy",
+                "Urine that appears red",
+                "bright pink or cola-colored",
+                "Strong-smelling urine",
+                "Pelvic pain in women",
+                "especially in the center of the pelvis and around the area of the pubic bone"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kidney infection (pyelonephritis) symptoms",
+            "patterns": [
+                "what are the symptoms of a kidney infection (pyelonephritis)?"
+            ],
+            "responses": [
+                "Fever",
+                "Chills",
+                "Back",
+                "side (flank) or groin pain",
+                "Abdominal pain",
+                "Frequent urination",
+                "Strong",
+                "persistent urge to urinate",
+                "Burning sensation or pain when urinating",
+                "Nausea and vomiting",
+                "Pus or blood in your urine",
+                "Foul-smelling urine"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "migraine treatment",
+            "patterns": [
+                "what are the treatments for migraine?"
+            ],
+            "responses": [
+                "Pain relievers",
+                "Triptans",
+                "CGRP inhibitors",
+                "Anti-nausea drugs",
+                "Preventive medications (beta-blockers",
+                "antidepressants",
+                "anti-seizure drugs)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tension headache treatment",
+            "patterns": [
+                "what are the treatments for tension headache?"
+            ],
+            "responses": [
+                "Over-the-counter pain relievers (ibuprofen",
+                "acetaminophen)",
+                "Stress management techniques (relaxation",
+                "meditation)",
+                "Physical therapy"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cluster headache treatment",
+            "patterns": [
+                "what are the treatments for cluster headache?"
+            ],
+            "responses": [
+                "Oxygen therapy",
+                "Triptans",
+                "Local anesthetics",
+                "Preventive medications (verapamil",
+                "steroids)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sinus headache treatment",
+            "patterns": [
+                "what are the treatments for sinus headache?"
+            ],
+            "responses": [
+                "Decongestants",
+                "Nasal corticosteroids",
+                "Pain relievers",
+                "Antibiotics (if bacterial infection)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cervicogenic headache treatment",
+            "patterns": [
+                "what are the treatments for cervicogenic headache?"
+            ],
+            "responses": [
+                "Physical therapy",
+                "Chiropractic care",
+                "Nerve blocks",
+                "Pain relievers"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "osteoarthritis treatment",
+            "patterns": [
+                "what are the treatments for osteoarthritis?"
+            ],
+            "responses": [
+                "Pain relievers",
+                "Physical therapy",
+                "Occupational therapy",
+                "Injections (cortisone",
+                "lubrication)",
+                "Surgery (joint replacement)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rheumatoid arthritis treatment",
+            "patterns": [
+                "what are the treatments for rheumatoid arthritis?"
+            ],
+            "responses": [
+                "Disease-modifying antirheumatic drugs (DMARDs)",
+                "Biologic agents",
+                "Steroids",
+                "NSAIDs",
+                "Physical therapy",
+                "Occupational therapy",
+                "Surgery"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gout treatment",
+            "patterns": [
+                "what are the treatments for gout?"
+            ],
+            "responses": [
+                "NSAIDs",
+                "Colchicine",
+                "Corticosteroids",
+                "Uric acid-lowering medications (allopurinol",
+                "febuxostat)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lupus treatment",
+            "patterns": [
+                "what are the treatments for lupus?"
+            ],
+            "responses": [
+                "NSAIDs",
+                "Antimalarials (hydroxychloroquine)",
+                "Corticosteroids",
+                "Immunosuppressants",
+                "Biologics"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fibromyalgia treatment",
+            "patterns": [
+                "what are the treatments for fibromyalgia?"
+            ],
+            "responses": [
+                "Pain relievers (acetaminophen",
+                "tramadol)",
+                "Antidepressants (duloxetine",
+                "milnacipran)",
+                "Anti-seizure drugs (gabapentin",
+                "pregabalin)",
+                "Physical therapy",
+                "Occupational therapy",
+                "Counseling"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "celiac disease treatment",
+            "patterns": [
+                "what are the treatments for celiac disease?"
+            ],
+            "responses": [
+                "Strict gluten-free diet",
+                "Vitamin and mineral supplements",
+                "Corticosteroids (for severe inflammation)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "irritable bowel syndrome (ibs) treatment",
+            "patterns": [
+                "what are the treatments for irritable bowel syndrome (ibs)?"
+            ],
+            "responses": [
+                "Dietary changes (FODMAP diet)",
+                "Fiber supplements",
+                "Antidiarrheal medications",
+                "Laxatives",
+                "Antispasmodics",
+                "Antidepressants",
+                "Probiotics",
+                "Stress management"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ulcerative colitis treatment",
+            "patterns": [
+                "what are the treatments for ulcerative colitis?"
+            ],
+            "responses": [
+                "Anti-inflammatory drugs (aminosalicylates",
+                "corticosteroids)",
+                "Immunosuppressants",
+                "Biologics",
+                "Surgery (colectomy)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "crohn's disease treatment",
+            "patterns": [
+                "what are the treatments for crohn's disease?"
+            ],
+            "responses": [
+                "Anti-inflammatory drugs (aminosalicylates",
+                "corticosteroids)",
+                "Immunosuppressants",
+                "Biologics",
+                "Antibiotics",
+                "Surgery (bowel resection)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "type 1 diabetes treatment",
+            "patterns": [
+                "what are the treatments for type 1 diabetes?"
+            ],
+            "responses": [
+                "Insulin therapy",
+                "Carbohydrate counting",
+                "Frequent blood sugar monitoring",
+                "Healthy eating",
+                "Regular exercise"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "type 2 diabetes treatment",
+            "patterns": [
+                "what are the treatments for type 2 diabetes?"
+            ],
+            "responses": [
+                "Healthy eating",
+                "Regular exercise",
+                "Weight loss",
+                "Medications (metformin",
+                "sulfonylureas)",
+                "Insulin therapy (if needed)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hypertension treatment",
+            "patterns": [
+                "what are the treatments for hypertension?"
+            ],
+            "responses": [
+                "Lifestyle changes (diet",
+                "exercise",
+                "weight loss)",
+                "Medications (diuretics",
+                "ACE inhibitors",
+                "ARBs",
+                "beta-blockers",
+                "calcium channel blockers)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hypotension treatment",
+            "patterns": [
+                "what are the treatments for hypotension?"
+            ],
+            "responses": [
+                "Increase salt intake",
+                "Drink more water",
+                "Compression stockings",
+                "Medications (fludrocortisone",
+                "midodrine)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cholesterol treatment",
+            "patterns": [
+                "what are the treatments for high cholesterol?"
+            ],
+            "responses": [
+                "Lifestyle changes (diet",
+                "exercise",
+                "weight management)",
+                "Statins",
+                "Cholesterol absorption inhibitors",
+                "PCSK9 inhibitors"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "asthma treatment",
+            "patterns": [
+                "what are the treatments for asthma?"
+            ],
+            "responses": [
+                "Bronchodilators (short-acting and long-acting)",
+                "Inhaled corticosteroids",
+                "Leukotriene modifiers",
+                "Biologics",
+                "Allergy shots"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "copd treatment",
+            "patterns": [
+                "what are the treatments for copd?"
+            ],
+            "responses": [
+                "Bronchodilators",
+                "Inhaled corticosteroids",
+                "Oxygen therapy",
+                "Pulmonary rehabilitation",
+                "Surgery (lung volume reduction",
+                "transplant)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pneumonia treatment",
+            "patterns": [
+                "what are the treatments for pneumonia?"
+            ],
+            "responses": [
+                "Antibiotics (bacterial pneumonia)",
+                "Antivirals (viral pneumonia)",
+                "Antifungals (fungal pneumonia)",
+                "Cough medicine",
+                "Pain relievers",
+                "Fever reducers",
+                "Oxygen therapy"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bronchitis treatment",
+            "patterns": [
+                "what are the treatments for bronchitis?"
+            ],
+            "responses": [
+                "Rest",
+                "Fluids",
+                "Humidifier",
+                "Cough medicine",
+                "Bronchodilators",
+                "Antibiotics (if bacterial infection)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "influenza treatment",
+            "patterns": [
+                "what are the treatments for influenza?"
+            ],
+            "responses": [
+                "Rest",
+                "Fluids",
+                "Antiviral drugs (oseltamivir",
+                "zanamivir)",
+                "Pain relievers",
+                "Fever reducers"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "common cold treatment",
+            "patterns": [
+                "what are the treatments for common cold?"
+            ],
+            "responses": [
+                "Rest",
+                "Fluids",
+                "Over-the-counter cold medications (decongestants",
+                "cough suppressants",
+                "pain relievers)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "allergies treatment",
+            "patterns": [
+                "what are the treatments for allergies?"
+            ],
+            "responses": [
+                "Antihistamines",
+                "Decongestants",
+                "Nasal corticosteroids",
+                "Immunotherapy (allergy shots)",
+                "Avoidance of allergens"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bacterial infection treatment",
+            "patterns": [
+                "what are the treatments for bacterial infection?"
+            ],
+            "responses": [
+                "Antibiotics"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "viral infection treatment",
+            "patterns": [
+                "what are the treatments for viral infection?"
+            ],
+            "responses": [
+                "Antiviral drugs",
+                "Rest",
+                "Fluids",
+                "Symptomatic treatment"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fungal infection treatment",
+            "patterns": [
+                "what are the treatments for fungal infection?"
+            ],
+            "responses": [
+                "Antifungal medications (topical or oral)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "parasitic infection treatment",
+            "patterns": [
+                "what are the treatments for parasitic infection?"
+            ],
+            "responses": [
+                "Antiparasitic medications"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skin rash treatment",
+            "patterns": [
+                "what are the treatments for skin rash?"
+            ],
+            "responses": [
+                "Topical corticosteroids",
+                "Antihistamines",
+                "Moisturizers",
+                "Antifungal creams",
+                "Antibiotics (if bacterial infection)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "eczema treatment",
+            "patterns": [
+                "what are the treatments for eczema?"
+            ],
+            "responses": [
+                "Moisturizers",
+                "Topical corticosteroids",
+                "Calcineurin inhibitors",
+                "Antihistamines",
+                "Wet wraps",
+                "Phototherapy"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "psoriasis treatment",
+            "patterns": [
+                "what are the treatments for psoriasis?"
+            ],
+            "responses": [
+                "Topical corticosteroids",
+                "Vitamin D analogues",
+                "Retinoids",
+                "Phototherapy",
+                "Systemic medications (methotrexate",
+                "cyclosporine)",
+                "Biologics"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "acne treatment",
+            "patterns": [
+                "what are the treatments for acne?"
+            ],
+            "responses": [
+                "Topical retinoids",
+                "Benzoyl peroxide",
+                "Antibiotics (topical or oral)",
+                "Oral contraceptives",
+                "Isotretinoin",
+                "Laser and light therapy"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rosacea treatment",
+            "patterns": [
+                "what are the treatments for rosacea?"
+            ],
+            "responses": [
+                "Topical medications (metronidazole",
+                "azelaic acid)",
+                "Oral antibiotics",
+                "Isotretinoin",
+                "Laser therapy"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "shingles treatment",
+            "patterns": [
+                "what are the treatments for shingles?"
+            ],
+            "responses": [
+                "Antiviral drugs (acyclovir",
+                "valacyclovir",
+                "famciclovir)",
+                "Pain relievers",
+                "Topical creams (capsaicin)",
+                "Corticosteroids"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "warts treatment",
+            "patterns": [
+                "what are the treatments for warts?"
+            ],
+            "responses": [
+                "Salicylic acid",
+                "Cryotherapy",
+                "Electrocautery",
+                "Laser surgery",
+                "Immunotherapy"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cold sores treatment",
+            "patterns": [
+                "what are the treatments for cold sores?"
+            ],
+            "responses": [
+                "Antiviral creams (acyclovir",
+                "penciclovir)",
+                "Oral antiviral drugs",
+                "Pain relievers",
+                "Cold compresses"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hives treatment",
+            "patterns": [
+                "what are the treatments for hives?"
+            ],
+            "responses": [
+                "Antihistamines",
+                "Corticosteroids",
+                "Omalizumab (for chronic hives)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sunburn treatment",
+            "patterns": [
+                "what are the treatments for sunburn?"
+            ],
+            "responses": [
+                "Cool compresses",
+                "Moisturizers",
+                "Pain relievers (ibuprofen",
+                "acetaminophen)",
+                "Aloe vera",
+                "Corticosteroid cream"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "heart attack treatment",
+            "patterns": [
+                "what are the treatments for heart attack?"
+            ],
+            "responses": [
+                "Aspirin",
+                "Nitroglycerin",
+                "Oxygen therapy",
+                "Thrombolytic drugs",
+                "Beta-blockers",
+                "ACE inhibitors",
+                "Angioplasty and stenting",
+                "Coronary artery bypass graft (CABG) surgery"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "stroke treatment",
+            "patterns": [
+                "what are the treatments for stroke?"
+            ],
+            "responses": [
+                "Tissue plasminogen activator (tPA)",
+                "Endovascular procedures (thrombectomy)",
+                "Anticoagulants",
+                "Antiplatelets",
+                "Blood pressure medications",
+                "Rehabilitation (physical",
+                "occupational",
+                "speech therapy)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "congestive heart failure treatment",
+            "patterns": [
+                "what are the treatments for congestive heart failure?"
+            ],
+            "responses": [
+                "ACE inhibitors",
+                "ARBs",
+                "Beta-blockers",
+                "Diuretics",
+                "Aldosterone antagonists",
+                "Digoxin",
+                "Implantable cardioverter-defibrillators (ICDs)",
+                "Cardiac resynchronization therapy (CRT)",
+                "Heart transplant"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "arrhythmia treatment",
+            "patterns": [
+                "what are the treatments for arrhythmia?"
+            ],
+            "responses": [
+                "Antiarrhythmic drugs",
+                "Beta-blockers",
+                "Calcium channel blockers",
+                "Anticoagulants",
+                "Cardioversion",
+                "Catheter ablation",
+                "Pacemaker",
+                "Implantable cardioverter-defibrillator (ICD)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "deep vein thrombosis (dvt) treatment",
+            "patterns": [
+                "what are the treatments for deep vein thrombosis (dvt)?"
+            ],
+            "responses": [
+                "Anticoagulants (blood thinners)",
+                "Thrombolytics",
+                "Compression stockings",
+                "Filters"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "anxiety disorders treatment",
+            "patterns": [
+                "what are the treatments for anxiety disorders?"
+            ],
+            "responses": [
+                "Psychotherapy (cognitive behavioral therapy)",
+                "Medications (antidepressants",
+                "anti-anxiety medications)",
+                "Relaxation techniques",
+                "Lifestyle changes"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "depression treatment",
+            "patterns": [
+                "what are the treatments for depression?"
+            ],
+            "responses": [
+                "Psychotherapy (cognitive behavioral therapy",
+                "interpersonal therapy)",
+                "Medications (antidepressants)",
+                "Electroconvulsive therapy (ECT)",
+                "Transcranial magnetic stimulation (TMS)",
+                "Vagus nerve stimulation (VNS)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bipolar disorder treatment",
+            "patterns": [
+                "what are the treatments for bipolar disorder?"
+            ],
+            "responses": [
+                "Mood stabilizers (lithium",
+                "valproate)",
+                "Antipsychotics",
+                "Antidepressants (used cautiously)",
+                "Psychotherapy",
+                "Electroconvulsive therapy (ECT)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "schizophrenia treatment",
+            "patterns": [
+                "what are the treatments for schizophrenia?"
+            ],
+            "responses": [
+                "Antipsychotic medications",
+                "Psychotherapy",
+                "Coordinated specialty care",
+                "Family education and support",
+                "Social skills training",
+                "Supported employment"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ocd treatment",
+            "patterns": [
+                "what are the treatments for ocd?"
+            ],
+            "responses": [
+                "Psychotherapy (exposure and response prevention)",
+                "Medications (antidepressants)",
+                "Deep brain stimulation (DBS)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ptsd treatment",
+            "patterns": [
+                "what are the treatments for ptsd?"
+            ],
+            "responses": [
+                "Psychotherapy (cognitive processing therapy",
+                "prolonged exposure therapy)",
+                "Medications (antidepressants)",
+                "Eye movement desensitization and reprocessing (EMDR)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "add/adhd treatment",
+            "patterns": [
+                "what are the treatments for add/adhd?"
+            ],
+            "responses": [
+                "Stimulant medications (methylphenidate",
+                "amphetamine)",
+                "Non-stimulant medications",
+                "Behavioral therapy",
+                "Parent training",
+                "School interventions"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "autism spectrum disorder (asd) treatment",
+            "patterns": [
+                "what are the treatments for autism spectrum disorder (asd)?"
+            ],
+            "responses": [
+                "Behavioral therapy (applied behavior analysis - ABA)",
+                "Developmental therapy",
+                "Speech therapy",
+                "Occupational therapy",
+                "Medications (for associated symptoms like anxiety",
+                "depression)",
+                "Educational interventions"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "eating disorders treatment",
+            "patterns": [
+                "what are the treatments for eating disorders?"
+            ],
+            "responses": [
+                "Psychotherapy (cognitive behavioral therapy",
+                "family-based therapy)",
+                "Nutritional counseling",
+                "Medications (antidepressants",
+                "antipsychotics)",
+                "Medical monitoring"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "substance abuse treatment",
+            "patterns": [
+                "what are the treatments for substance abuse?"
+            ],
+            "responses": [
+                "Detoxification",
+                "Behavioral therapies (cognitive behavioral therapy",
+                "contingency management)",
+                "Medications (naltrexone",
+                "buprenorphine)",
+                "Support groups (AA",
+                "NA)",
+                "Rehabilitation programs"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "insomnia treatment",
+            "patterns": [
+                "what are the treatments for insomnia?"
+            ],
+            "responses": [
+                "Cognitive behavioral therapy for insomnia (CBT-I)",
+                "Sleep hygiene practices",
+                "Medications (prescription and over-the-counter)",
+                "Melatonin"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sleep apnea treatment",
+            "patterns": [
+                "what are the treatments for sleep apnea?"
+            ],
+            "responses": [
+                "Continuous positive airway pressure (CPAP)",
+                "Oral appliances",
+                "Lifestyle changes (weight loss",
+                "avoiding alcohol)",
+                "Surgery"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "restless legs syndrome (rls) treatment",
+            "patterns": [
+                "what are the treatments for restless legs syndrome (rls)?"
+            ],
+            "responses": [
+                "Lifestyle changes (exercise",
+                "avoiding caffeine)",
+                "Iron supplements (if deficient)",
+                "Medications (dopaminergic agents",
+                "gabapentin)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "narcolepsy treatment",
+            "patterns": [
+                "what are the treatments for narcolepsy?"
+            ],
+            "responses": [
+                "Stimulant medications (modafinil",
+                "armodafinil)",
+                "Antidepressants (for cataplexy)",
+                "Sodium oxybate",
+                "Scheduled naps"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chron's disease symptoms",
+            "patterns": [
+                "what are the symptoms of Chron's disease?"
+            ],
+            "responses": [
+                "Diarrhea",
+                "Abdominal pain",
+                "Cramping",
+                "Fever",
+                "Fatigue",
+                "Blood in stool",
+                "Mouth sores",
+                "Reduced appetite and weight loss",
+                "Perianal disease"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "colorectal cancer symptoms",
+            "patterns": [
+                "what are the symptoms of colorectal cancer?"
+            ],
+            "responses": [
+                "A change in your bowel habits",
+                "including diarrhea or constipation or a change in the consistency of your stool",
+                "Rectal bleeding or blood in your stool",
+                "Persistent abdominal discomfort",
+                "such as cramps",
+                "gas or pain",
+                "A feeling that your bowel doesn't empty completely",
+                "Weakness or fatigue",
+                "Unexplained weight loss"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "what are the treatments for colorectal cancer symptoms",
+            "patterns": [
+                "what are the treatments for colorectal cancer?"
+            ],
+            "responses": [
+                "Surgery to remove the cancerous tissue",
+                "Radiation therapy",
+                "Chemotherapy",
+                "Immunotherapy"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nonalcoholic fatty liver disease (nafld) symptoms",
+            "patterns": [
+                "what are the symptoms of nonalcoholic fatty liver disease (nafld)?"
+            ],
+            "responses": [
+                "Fatigue",
+                "Pain or discomfort in the upper right abdomen",
+                "Swelling in the abdomen",
+                "Elevated liver enzymes",
+                "Insulin resistance and high blood sugar"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "influenza symptoms",
+            "patterns": [
+                "what are the symptoms of influenza?"
+            ],
+            "responses": [
+                "Fever",
+                "Cough",
+                "Sore throat",
+                "Runny or stuffy nose",
+                "Body aches",
+                "Headache",
+                "Fatigue"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}

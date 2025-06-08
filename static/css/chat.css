@@ -1,0 +1,240 @@
+:root {
+    --chat-user-bg: var(--bs-primary);
+    --chat-bot-bg: var(--bs-secondary);
+    --chat-border-radius: 1rem;
+    --animation-duration: 0.3s;
+}
+
+/* Full height layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Chat container styling */
+.chat-container {
+    max-height: 100%;
+}
+
+.chat-messages {
+    scroll-behavior: smooth;
+    padding-bottom: 1rem;
+}
+
+/* Message styling */
+.message-wrapper {
+    margin-bottom: 1rem;
+    animation: fadeInUp var(--animation-duration) ease-out;
+}
+
+.message-wrapper.user-message {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message-wrapper.bot-message {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.message-bubble {
+    max-width: 70%;
+    padding: 0.75rem 1rem;
+    border-radius: var(--chat-border-radius);
+    position: relative;
+    word-wrap: break-word;
+}
+
+.message-bubble.user {
+    background: var(--chat-user-bg);
+    color: white;
+    margin-left: auto;
+}
+
+.message-bubble.bot {
+    background: var(--chat-bot-bg);
+    color: var(--bs-body-color);
+}
+
+.message-content p {
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+}
+
+.message-content p:last-of-type {
+    margin-bottom: 0.5rem;
+}
+
+.message-time {
+    opacity: 0.7;
+    font-size: 0.75rem;
+    display: block;
+}
+
+/* Input area styling */
+.chat-input-area {
+    background: var(--bs-body-bg);
+    border-top: 1px solid var(--bs-border-color);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.25);
+    border-color: var(--bs-primary);
+}
+
+/* Status indicator */
+.status-indicator {
+    display: flex;
+    align-items: center;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+.status-dot.bg-success {
+    background-color: var(--bs-success) !important;
+}
+
+.status-dot.bg-warning {
+    background-color: var(--bs-warning) !important;
+}
+
+.status-dot.bg-danger {
+    background-color: var(--bs-danger) !important;
+}
+
+/* Typing indicator */
+.typing-indicator {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all var(--animation-duration) ease-out;
+}
+
+.typing-indicator.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Loading animation for typing */
+.typing-dots {
+    display: inline-block;
+}
+
+.typing-dots::after {
+    content: '';
+    animation: typingDots 1.5s infinite;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes typingDots {
+    0%, 60%, 100% {
+        content: '';
+    }
+    20% {
+        content: '.';
+    }
+    40% {
+        content: '..';
+    }
+    80% {
+        content: '...';
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .message-bubble {
+        max-width: 85%;
+    }
+    
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .chat-messages {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .message-bubble {
+        max-width: 95%;
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .chat-input-area .container {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+/* Scrollbar styling for webkit browsers */
+.chat-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background: var(--bs-border-color);
+    border-radius: 3px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+    background: var(--bs-secondary);
+}
+
+/* Focus states for accessibility */
+.form-control:focus,
+.btn:focus {
+    outline: 2px solid var(--bs-primary);
+    outline-offset: 2px;
+}
+
+/* Message state indicators */
+.message-sending {
+    opacity: 0.6;
+}
+
+.message-error {
+    border-left: 3px solid var(--bs-danger);
+}
+
+.message-bubble.bot.error {
+    background: rgba(var(--bs-danger-rgb), 0.1);
+    border: 1px solid var(--bs-danger);
+}

@@ -1,0 +1,5 @@
+flask
+nltk
+scikit-learn
+tensorflow
+gunicorn
