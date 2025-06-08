@@ -1,6 +1,4 @@
 # train.py
-import os
-nltk.data.path.append(os.path.join(os.path.dirname(__file__), "nltk_data"))
 import json
 import random
 import pickle
@@ -14,11 +12,10 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 
 # Download NLTK resources
-nltk.download('punkt', download_dir='/opt/render/nltk_data')
-nltk.download('wordnet', download_dir='/opt/render/nltk_data')
-nltk.download('stopwords', download_dir='/opt/render/nltk_data')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
 
-nltk.data.path.append("/opt/render/nltk_data") 
 
 # Load intents
 with open("intents.json", "r", encoding="utf-8") as file:
